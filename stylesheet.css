@@ -1,0 +1,154 @@
+body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+#title {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+}
+
+#subtitle {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#app {
+  margin-left: 5%;
+}
+
+#play-menu {
+  margin: 25px 0 25px 0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin: 0 5px 0 5px;
+} 
+
+a {
+  text-decoration: none;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+a:hover {
+  background-color: gray;
+}
+
+#grid {
+  width: 100%;
+}
+
+.num-row {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  height: 50px;
+}
+
+.col {
+  float: left;
+  padding-right: 1px;
+}
+
+.side-margin {
+  width: 1%;
+}
+
+.number-box {
+  width: 4.5%;
+}
+
+.num-btn {
+  width: 80%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  font-color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: solid;
+  border-color: gray;
+  background-color: #dd0084;
+  border-width: 1px;
+  border-radius: 50px;
+  height: 30px;
+}
+
+.num-btn:hover {
+  background-color: gray;
+}
+
+input[type=text] {
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 150px;
+}
+
+#options {
+  margin: 25px 0 25px 0px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+}
+
+.menu-btn {
+  margin-left: 0px;
+  width: 10%;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.container {
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 30%;
+}
+
+#fullstack-logo {
+  height: 50px;
+  float: left;
+}
+
+#credit {
+  display: inline;
+  margin: 0px;
+  text-align: center;
+}
+
+#gh-logo {
+  height: 37.5px;
+  margin: 6.25px 20px 6.25px 0px;
+  float: right;
+}
+
+#footer {
+  width: 100%;
+  border-top: solid 1px black;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}

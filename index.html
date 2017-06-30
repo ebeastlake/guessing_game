@@ -1,74 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Guessing Game</title>
+<head>
+  
+  <title>Emily's Guessing Game</title>
 
-    <!-- Bootstrap and CSS here-->
-    <style>
-      .center {
-        text-align: center;
-      }
-      ul {
-          list-style: none;
-          padding: 0;
-      }
-      img {
-          display: inline;
-          width: 200px;
-          height: 100px;
-      }
-      #footer {
-          width: 100%;
-          border-top: solid 2px black;
-          background-color: white;
-          position: fixed;
-          bottom: 0;
-      }
-    </style>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Raleway|Roboto+Slab" rel="stylesheet">
 
-  </head>
-  <body>
+</head>
 
-      <div id='app'>
+<body>
 
-        <div id='headers'>
-          <!-- Title and subtitles! -->
-        </div>
+  <div id='app'>
 
-        <div id='main'>
-          <div id='input-parent'>
-            <!-- Player's guess input, and submit button -->
-          </div>
+    <div id='headers'>
 
-          <div id='guesses'>
-            <!-- unordered list of guesses -->
-          </div>
+      <p id='title'>Play the Guessing Game!</p>
+      <p id='subtitle'>Guess a number between 1 and 100.</p>
 
-          <div id="menu-btns">
-            <!-- reset and hint buttons -->
-          </div>
-        </div>
-      </div>
+  </div>
+
+  <div id='play-menu'>
+    <ul>
+        <li>Choose how you want to play: </li>
+        <li><a href="index.html">Click Mode</a></li>
+        <li><a href="index2.html">Type mode</a></li>
+    </ul>
+</div>
+
+<div id='grid'>
+  <div class="num-row">
+    <div class="col side-margin">&nbsp</div>
+    <div class="col number-box"><button class="num-btn"> 1 </button></div>
+    <div class="col number-box"><button class="num-btn"> 2 </button></div>
+    <div class="col number-box"><button class="num-btn"> 3 </button></div>
+    <div class="col number-box"><button class="num-btn"> 4 </button></div>
+    <div class="col number-box"><button class="num-btn"> 5 </button></div>
+    <div class="col number-box"><button class="num-btn"> 6 </button></div>
+    <div class="col number-box"><button class="num-btn"> 7 </button></div>
+    <div class="col number-box"><button class="num-btn"> 8 </button></div>
+    <div class="col number-box"><button class="num-btn"> 9 </button></div>
+    <div class="col number-box"><button class="num-btn"> 10 </button></div>
+    <div class="col number-box"><button class="num-btn"> 11 </button></div>
+    <div class="col number-box"><button class="num-btn"> 12 </button></div>
+    <div class="col number-box"><button class="num-btn"> 13 </button></div>
+    <div class="col number-box"><button class="num-btn"> 14 </button></div>
+    <div class="col number-box"><button class="num-btn"> 15 </button></div>
+    <div class="col number-box"><button class="num-btn"> 16 </button></div>
+    <div class="col number-box"><button class="num-btn"> 17 </button></div>
+    <div class="col number-box"><button class="num-btn"> 18 </button></div>
+    <div class="col number-box"><button class="num-btn"> 19 </button></div>
+    <div class="col number-box"><button class="num-btn"> 20 </button></div>
+    <div class="col side-margin">&nbsp</div>
+</div>
+<div class="num-row">
+    <div class="col side-margin">&nbsp</div>
+    <div class="col number-box"><button class="num-btn"> 21 </button></div>
+    <div class="col number-box"><button class="num-btn"> 22 </button></div>
+    <div class="col number-box"><button class="num-btn"> 23 </button></div>
+    <div class="col number-box"><button class="num-btn"> 24 </button></div>
+    <div class="col number-box"><button class="num-btn"> 25 </button></div>
+    <div class="col number-box"><button class="num-btn"> 26 </button></div>
+    <div class="col number-box"><button class="num-btn"> 27 </button></div>
+    <div class="col number-box"><button class="num-btn"> 28 </button></div>
+    <div class="col number-box"><button class="num-btn"> 29 </button></div>
+    <div class="col number-box"><button class="num-btn"> 30 </button></div>
+    <div class="col number-box"><button class="num-btn"> 31 </button></div>
+    <div class="col number-box"><button class="num-btn"> 32 </button></div>
+    <div class="col number-box"><button class="num-btn"> 33 </button></div>
+    <div class="col number-box"><button class="num-btn"> 34 </button></div>
+    <div class="col number-box"><button class="num-btn"> 35 </button></div>
+    <div class="col number-box"><button class="num-btn"> 36 </button></div>
+    <div class="col number-box"><button class="num-btn"> 37 </button></div>
+    <div class="col number-box"><button class="num-btn"> 38 </button></div>
+    <div class="col number-box"><button class="num-btn"> 39 </button></div>
+    <div class="col number-box"><button class="num-btn"> 40 </button></div>
+    <div class="col side-margin">&nbsp</div>
+</div>
+<div class="num-row">
+    <div class="col side-margin">&nbsp</div>
+    <div class="col number-box"><button class="num-btn"> 41 </button></div>
+    <div class="col number-box"><button class="num-btn"> 42 </button></div>
+    <div class="col number-box"><button class="num-btn"> 43 </button></div>
+    <div class="col number-box"><button class="num-btn"> 44 </button></div>
+    <div class="col number-box"><button class="num-btn"> 45 </button></div>
+    <div class="col number-box"><button class="num-btn"> 46 </button></div>
+    <div class="col number-box"><button class="num-btn"> 47 </button></div>
+    <div class="col number-box"><button class="num-btn"> 48 </button></div>
+    <div class="col number-box"><button class="num-btn"> 49 </button></div>
+    <div class="col number-box"><button class="num-btn"> 50 </button></div>
+    <div class="col number-box"><button class="num-btn"> 51 </button></div>
+    <div class="col number-box"><button class="num-btn"> 52 </button></div>
+    <div class="col number-box"><button class="num-btn"> 53 </button></div>
+    <div class="col number-box"><button class="num-btn"> 54 </button></div>
+    <div class="col number-box"><button class="num-btn"> 55 </button></div>
+    <div class="col number-box"><button class="num-btn"> 56 </button></div>
+    <div class="col number-box"><button class="num-btn"> 57 </button></div>
+    <div class="col number-box"><button class="num-btn"> 58 </button></div>
+    <div class="col number-box"><button class="num-btn"> 59 </button></div>
+    <div class="col number-box"><button class="num-btn"> 60 </button></div>
+    <div class="col side-margin">&nbsp</div>
+</div>
+<div class="num-row">
+    <div class="col side-margin">&nbsp</div>
+    <div class="col number-box"><button class="num-btn"> 61 </button></div>
+    <div class="col number-box"><button class="num-btn"> 62 </button></div>
+    <div class="col number-box"><button class="num-btn"> 63 </button></div>
+    <div class="col number-box"><button class="num-btn"> 64 </button></div>
+    <div class="col number-box"><button class="num-btn"> 65 </button></div>
+    <div class="col number-box"><button class="num-btn"> 66 </button></div>
+    <div class="col number-box"><button class="num-btn"> 67 </button></div>
+    <div class="col number-box"><button class="num-btn"> 68 </button></div>
+    <div class="col number-box"><button class="num-btn"> 69 </button></div>
+    <div class="col number-box"><button class="num-btn"> 70 </button></div>
+    <div class="col number-box"><button class="num-btn"> 71 </button></div>
+    <div class="col number-box"><button class="num-btn"> 72 </button></div>
+    <div class="col number-box"><button class="num-btn"> 73 </button></div>
+    <div class="col number-box"><button class="num-btn"> 74 </button></div>
+    <div class="col number-box"><button class="num-btn"> 75 </button></div>
+    <div class="col number-box"><button class="num-btn"> 76 </button></div>
+    <div class="col number-box"><button class="num-btn"> 77 </button></div>
+    <div class="col number-box"><button class="num-btn"> 78 </button></div>
+    <div class="col number-box"><button class="num-btn"> 79 </button></div>
+    <div class="col number-box"><button class="num-btn"> 80 </button></div>
+    <div class="col side-margin">&nbsp</div>
+</div>
+<div class="num-row">
+    <div class="col side-margin">&nbsp</div>
+    <div class="col number-box"><button class="num-btn"> 81 </button></div>
+    <div class="col number-box"><button class="num-btn"> 82 </button></div>
+    <div class="col number-box"><button class="num-btn"> 83 </button></div>
+    <div class="col number-box"><button class="num-btn"> 84 </button></div>
+    <div class="col number-box"><button class="num-btn"> 85 </button></div>
+    <div class="col number-box"><button class="num-btn"> 86 </button></div>
+    <div class="col number-box"><button class="num-btn"> 87 </button></div>
+    <div class="col number-box"><button class="num-btn"> 88 </button></div>
+    <div class="col number-box"><button class="num-btn"> 89 </button></div>
+    <div class="col number-box"><button class="num-btn"> 90 </button></div>
+    <div class="col number-box"><button class="num-btn"> 91 </button></div>
+    <div class="col number-box"><button class="num-btn"> 92 </button></div>
+    <div class="col number-box"><button class="num-btn"> 93 </button></div>
+    <div class="col number-box"><button class="num-btn"> 94 </button></div>
+    <div class="col number-box"><button class="num-btn"> 95 </button></div>
+    <div class="col number-box"><button class="num-btn"> 96 </button></div>
+    <div class="col number-box"><button class="num-btn"> 97 </button></div>
+    <div class="col number-box"><button class="num-btn"> 98 </button></div>
+    <div class="col number-box"><button class="num-btn"> 99 </button></div>
+    <div class="col number-box"><button class="num-btn"> 100 </button></div>
+    <div class="col side-margin"> &nbsp </div>
+</div>
+
+<div id='options'>
+    <ul>
+        <li>Need a hint?</li>
+        <li><button class="menu-btn">Get one.</button></li>
+        <li>Want to start over?</li>
+        <li><button class ="menu-btn">Restart.</button></li>
+    </ul>
+</div>
+
+</div>
+</div>
 
 
 
-    <div id='footer'>
-        <div>
-          <div class=''>
-            <img src='fa-logo@2x.png'></img>
-          </div>
+<div id='footer'>
+    <img id='fullstack-logo' src='fa-logo@2x.png'></img>
+    <!-- CREDIT GOES HERE -->
+    <img id='gh-logo' src='grace_hopper_academy.png'></img>
+</div>
 
-          <div class=''>
-            <h4>Project by YOUR NAME HERE</h4>
-          </div>
-
-          <div class=''>
-            <img src='grace_hopper_academy.png'></img>
-          </div>
-
-
-        </div>
-    </div>
-
-  </body>
+</body>
 </html>
