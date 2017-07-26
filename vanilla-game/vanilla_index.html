@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="vanilla_style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  </head>
+  <body>
+
+      <div id='app' class='center container'>
+
+        <div id='headers'>
+          <h1 id='title' class="white">Play the Guessing Game!</h1>
+          <h3 id='subtitle' class="white">Guess a number between 1-100</h4>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <input id='player-input' class='center' placeholder='#' maxlength='3' autofocus=autofocus></input>
+            <button id='submit'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <ul id='guess-list'>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+              <li class="guess">-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <button id='reset' class='btn btn-default'>Reset</button>
+            <button id='hint' class='btn btn-default'>Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div>
+          <div class='col-sm-4'>
+            <img class='img-responsive' src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Emily Eastlake</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img id='gh-logo' class='img-responsive' src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="GuessingGame.js" type="text/javascript"></script>
+
+  </body>
+</html>
